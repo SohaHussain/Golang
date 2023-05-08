@@ -21,3 +21,29 @@ fmt.Printf("No Case")
 }
 ```
 
+### Tagless Switch case
+
+```
+switch{
+case x>1:
+fmt.printf("case 1")
+case x<1:
+fmt.Printf("case 2")
+default:fmt.Printf("no case")
+}
+```
+
+### Scan
+- reads user input
+- takes a pointer as an argument
+- typed data is written to pointer
+- returns number of scanned items
+- eg:
+
+```
+var applenum int
+fmt.Printf("number of apples?")
+num, err :=
+fmt.Scan(&applenum)
+fmt.Printf(applenum)
+```

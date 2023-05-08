@@ -1,0 +1,7 @@
+- Concurrency is the management of multiple tasks at the same time.
+- key requirement for large systems.
+- Concurrent programming enables parallelism, management of task execution, communication and synchronization between tasks.
+- Go includes concurrency primitives.
+- Goroutines represents concurrent tasks.
+- Channels are used to communicate between tasks.
+- Select enables task synchronization.

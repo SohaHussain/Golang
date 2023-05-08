@@ -1,0 +1,3 @@
+- Go Lang is weakly object-oriented. It implements objects but may have a fewer features than other languages like Java, CPP.
+- Go does not use the term class, instead it uses struct. Struct encapsulates different types of data that are associated together.
+- Go's implementation of structs is simplified. It does not have inheritance, constructors or generics.
